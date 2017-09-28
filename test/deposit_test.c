@@ -5,13 +5,13 @@
 
 CTEST(disc_test, D_pol)
 {
-	const float a = 1;
-	const float b = 3;
+	const float a = 2;
+	const float b = 5;
 	const float c = 1;
 
 	const float result = D(a, b, c);
 
-	const float expected = 5;
+	const float expected = 17;
 	ASSERT_DBL_NEAR(expected, result);
 }
 
